@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  flaskexp:
+    image: flaskexp
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 55181:55181
